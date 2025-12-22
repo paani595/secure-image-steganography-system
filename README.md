@@ -1,31 +1,31 @@
-# 🔒 Secure Image Steganography
+#  Secure Image Steganography
 
 A powerful Python-based steganography tool that hides encrypted messages within images using AES-256 encryption and advanced embedding techniques.
 
 
 
-## ✨ Features
+##  Features
 
 ### Core Capabilities
-- **🔐 Military-Grade Encryption**: AES-256-CBC encryption for message security
-- **🖼️ Multiple Image Formats**: Automatic detection and handling of PNG and JPEG
-- **🎯 LSB Steganography**: Reliable Least Significant Bit embedding for lossless formats
-- **📊 DCT Steganography**: Discrete Cosine Transform embedding for JPEG images
-- **⚡ Parallel Processing**: Multi-core CPU utilization for faster operations
-- **🔍 Steganalysis Tools**: Built-in detection and analysis capabilities
+- ** Military-Grade Encryption**: AES-256-CBC encryption for message security
+- ** Multiple Image Formats**: Automatic detection and handling of PNG and JPEG
+- ** LSB Steganography**: Reliable Least Significant Bit embedding for lossless formats
+- ** DCT Steganography**: Discrete Cosine Transform embedding for JPEG images
+- ** Parallel Processing**: Multi-core CPU utilization for faster operations
+- ** Steganalysis Tools**: Built-in detection and analysis capabilities
 
 ### User Interfaces
-- **🖥️ Desktop GUI**: User-friendly Tkinter application
-- **⌨️ Command Line**: Powerful CLI for automation and scripting
-- **🐍 Python API**: Easy integration into other projects
+- ** Desktop GUI**: User-friendly Tkinter application
+- ** Command Line**: Powerful CLI for automation and scripting
+- ** Python API**: Easy integration into other projects
 
 ### Quality & Analysis
-- **📈 PSNR/MSE Metrics**: Quality assessment of stego images
-- **🔬 Image Comparison**: Detailed comparison between original and stego images
-- **🕵️ Steganography Detection**: Statistical analysis for hidden data detection
-- **#️⃣ Image Hashing**: SHA-256 hashing for integrity verification
+- ** PSNR/MSE Metrics**: Quality assessment of stego images
+- ** Image Comparison**: Detailed comparison between original and stego images
+- ** Steganography Detection**: Statistical analysis for hidden data detection
+- **#️ Image Hashing**: SHA-256 hashing for integrity verification
 
-## 🔬 How It Works
+##  How It Works
 
 ### Embedding Process
 
@@ -48,7 +48,7 @@ Stego Image → LSB/DCT Extraction → Binary to Bytes → AES-256 Decryption �
   input.png     10110101...      [encrypted bytes]     [decrypted]         "Hello World"
 ```
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -74,7 +74,7 @@ pip install -r requirements.txt
 python cli.py --help
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Embed a Message (GUI)
 
@@ -86,7 +86,7 @@ python gui_app.py
 2. Browse for a cover image
 3. Type your secret message
 4. Set a password
-5. Click "🔒 Embed Message"
+5. Click " Embed Message"
 
 ### Embed a Message (CLI)
 
@@ -396,13 +396,13 @@ MSE = (1 / n) × Σ(original - modified)²
 ### Password Guidelines
 
 ```
-❌ Weak:     "password", "12345", "myname"
-⚠️  Medium:  "MyPassword123"
-✅ Strong:   "Tr0ub4dor&3_SecurePass!"
-✅ Best:     "correct-horse-battery-staple-9X2v" (passphrase)
+ Weak:     "password", "12345", "myname"
+  Medium:  "MyPassword123"
+ Strong:   "Tr0ub4dor&3_SecurePass!"
+ Best:     "correct-horse-battery-staple-9X2v" (passphrase)
 ```
 
-## 📊 Examples
+##  Examples
 
 ### Example 1: Simple Text Message
 
@@ -496,13 +496,6 @@ pip install -r requirements.txt
 python -m pytest tests/
 ```
 
-
-## 🙏 Acknowledgments
-
-- OpenCV team for image processing capabilities
-- Cryptography library maintainers
-- Python community
-- All contributors
 
 ---
 
