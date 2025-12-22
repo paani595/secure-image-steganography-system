@@ -498,5 +498,3 @@ python -m pytest tests/
 
 
 ---
-
-Made with ❤️ and Python
