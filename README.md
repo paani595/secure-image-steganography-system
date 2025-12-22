@@ -82,7 +82,7 @@ python cli.py --help
 python gui_app.py
 ```
 
-1. Select the "📝 Embed Message" tab
+1. Select the " Embed Message" tab
 2. Browse for a cover image
 3. Type your secret message
 4. Set a password
@@ -100,7 +100,7 @@ python cli.py embed -i cover.png -o stego.png -m "Secret message" -p password123
 python cli.py extract -i stego.png -p password123
 ```
 
-## 📖 Usage
+##  Usage
 
 ### GUI Application
 
